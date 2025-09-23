@@ -1,7 +1,0 @@
-﻿  Хакатон.cpp
-C:\Users\BrunovDD\source\repos\Хакатон\Хакатон\Хакатон.cpp(72,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\BrunovDD\source\repos\Хакатон\Хакатон\Хакатон.cpp(150,27): warning C4018: '<': signed/unsigned mismatch
-C:\Users\BrunovDD\source\repos\Хакатон\Хакатон\Хакатон.cpp(141,9): warning C4101: 's': unreferenced local variable
-C:\Users\BrunovDD\source\repos\Хакатон\Хакатон\Хакатон.cpp(223,35): warning C4018: '<': signed/unsigned mismatch
-C:\Users\BrunovDD\source\repos\Хакатон\Хакатон\Хакатон.cpp(203,18): warning C4101: 'buf_size': unreferenced local variable
-  Хакатон.vcxproj -> C:\Users\BrunovDD\source\repos\Хакатон\Debug\Хакатон.exe
