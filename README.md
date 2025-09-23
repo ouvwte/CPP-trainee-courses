@@ -1,2 +1,8 @@
-# CPP-trainee-courses
-Programming algorithms and data structures on C++
+# Laboratory tasks
+
+## Structure
+* "Programming on C++" university course 
+1. 
+
+* "Object-oriented programming" university course
+1. 
