@@ -25,3 +25,5 @@
 
 * 1st place in the GAZ-IT Hackathon 
 1. [Solve the problem]() of import substitution: Сalculation of optimal cutting of linear materials
+
+* [Solving]() Codeforces tasks (https://codeforces.com/)
