@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main(int argc, const char** argv) {
+    int a1, a2, a3, a4, answer;
+    string str;
+
+    answer = 0;
+    cin >> a1 >> a2 >> a3 >> a4;
+    cin >> str;
+
+    for (int i = 0; i < str.size(); i++) {
+        if (str[i] == '1') {
+            answer += a1;
+        } else if (str[i] == '2') {
+            answer += a2;
+        } else if (str[i] == '3') {
+            answer += a3;
+        } else if (str[i] == '4') {
+            answer += a4;
+        }
+    }
+
+    cout << answer << endl;
+
+    return 0;
+}

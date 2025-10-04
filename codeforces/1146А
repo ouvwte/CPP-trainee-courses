@@ -1,0 +1,28 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main(int argc, const char** argv) {
+    int answer;
+    string str;
+
+    answer = 0;
+    cin >> str;
+
+    for (int i = 0; i < str.size(); i++) {
+        if (str[i] == 'a') {
+            answer++;
+        }
+    }
+
+    if (answer * 2 - 1 > str.size()) {
+        answer = str.size();
+    } else {
+        answer = answer * 2 - 1;
+    }
+
+    cout << answer << endl;
+
+    return 0;
+}

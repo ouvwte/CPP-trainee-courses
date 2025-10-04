@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a;
+	cin >> a;
+	int b,c,d;
+	c = 1;
+	d = 1;
+	b = a;
+	while (b>0) {
+		b = b - p;
+		c = c + 1;
+		d = d + c;
+	}
+	if (b >= 0) {
+		cout << (c - 1);
+	}
+	else {
+		cout << (c - 2);
+	}
+	return 0;
+}

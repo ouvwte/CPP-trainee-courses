@@ -1,0 +1,31 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main(int argc, const char** argv) {
+    long long int n, answer;
+    string str;
+
+    answer = 0;
+    cin >> n;
+    cin >> str;
+
+    for (int i = 0; i < n; i++) {
+        if (str[i] == 'A') {
+            answer++;
+        } else if (str[i] == 'D') {
+            answer--;
+        }
+    }
+
+    if (answer > 0) {
+        cout << "Anton" << endl;
+    } else if (answer < 0) {
+        cout << "Danik" << endl;
+    } else {
+        cout << "Friendship" << endl;
+    }
+
+    return 0;
+}

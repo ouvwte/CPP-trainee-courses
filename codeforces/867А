@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+
+int main(int argc, const char** argv) {
+    int input, answer;
+    char str[100];
+
+    answer = 0;
+    cin >> input;
+    cin >> str;
+
+    for (int i = 0; i < input - 1; i++) {
+        if (str[i] == 'S' && str[i + 1] == 'F') {
+            answer++;
+        } else if (str[i] == 'F' && str[i + 1] == 'S') {
+            answer--;
+        }
+    }
+
+    if (answer > 0) {
+        cout << "YES" << endl;
+    }
+    else {
+        cout << "NO" << endl;
+    }
+
+    return 0;
+}

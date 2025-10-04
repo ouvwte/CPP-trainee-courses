@@ -1,0 +1,26 @@
+#include "iostream"
+using namespace std;
+
+int main() {
+	long long int x, y, z;
+	cin >> x;
+	long long int mas[1000000];
+	z = 1;
+	y = 1;
+	for (long long int i = 0; i < x; i++) {
+		cin >> mas[i];
+	}
+	for (long long int i = 1; i <= x; i++) {
+		if (mas[i - 1] < mas[i]) {
+			z++;
+		}
+		else {
+			if (y < z) {
+				y = z;
+			}
+			z = 1;
+		}
+	}
+	cout << y << endl;
+    return 0;
+}

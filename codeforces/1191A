@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+
+char f(int x) {
+	char hp;
+	if (x % 4 == 1) {
+		hp = 'A';
+	}
+	else if (x % 4 == 3) {
+		hp = 'B';
+	}
+	else if (x % 4 == 2) {
+		hp = 'C';
+	}
+	else {
+		hp = 'D';
+	}
+	return hp;
+}
+
+int main()
+{
+	int x;
+	char hp;
+	cin >> x;
+	hp = f(x);
+	if (hp == 'A') {
+		cout << "0 A";
+	}
+	else if (hp == 'B') {
+		cout << "2 A";
+	}
+	else if (hp == 'C') {
+		cout << "1 B";
+	}
+	else {
+		cout << "1 A";
+	}
+
+    return 0;
+}
